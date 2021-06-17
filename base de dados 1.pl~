@@ -1,0 +1,77 @@
+%Base de dados 1
+
+pergunta('rede de computadores',
+         'Rede de computadores ou Rede de dados, na informática e na telecomunicação é um conjunto de dois ou mais dispositivos eletrônicos de computação (ou módulos processadores ou nós da rede) interligados por um sistema de comunicação digital (ou link de dados), guiados por um conjunto de regras (protocolo de rede) para compartilhar entre si informação, serviços e, recursos físicos e lógicos.').
+
+pergunta('classificação de redes',
+         'As redes são classificadas em WAN, LAN e MAN').
+
+pergunta('roteador',
+         'Elemento utilizado para encaminhar pacotes de informações ao destino adequado. Para tanto, os roteadores abrem os pacotes IP e analisam cada endereço de destino, verificando a melhor rota para enviar o pacote ao destino final.').
+
+pergunta('placa de rede',
+         'Elemento empregado como interface entre o computador e o cabeamento da rede, conhecido também como adaptador. Possui um processador especializado em rotinas de armazenamento dentro da memória de leituras para transmitir e receber dados.').
+
+pergunta('modem',
+         'Elemento utilizado para modular o sinal digital para que possa ser transmitido. Ou seja, transforma os sinais elétricos digitais, que saem do computador, em um formato adequado ao meio de transmissão para que, através da aplicação de técnicas que permitam a preservação da integridade dos sinais, possam ser transmitidos para longas distâncias por meio da linha telefônica.').
+
+pergunta('repetidor',
+         'Elemento empregado para a interligação de duas ou mais redes idênticas, transformando-as em uma única rede lógica. Ou seja, embora fisicamente as redes possam estar a certa distância, quando interligadas pelo repetidor, o usuário tem a sensação de que as redes são uma, inclusive no seu endereçamento IP. Atuando em nível físico, os repetidores simplesmente recebem os pacotes de cada uma das redes e o transmitem, sem realizar qualquer tipo de tratamento dos pacotes que por ali passam.').
+
+pergunta('switch',
+         'Elemento utilizado para interligar computadores e redes a fim de concentrar o cabeamento e permitir a conexão de redes de tipos diferentes. É uma evolução dos hubs e pontes, pois agrega suas funções básicas e fornece recursos para melhorar o tráfego dos pacotes.').
+
+pergunta('lan',
+         'Corresponde às redes locais de empresas, escritórios, laboratórios de informática ou até domésticas. Em síntese, é restrita a uma pequena área.').
+
+pergunta('man',
+         'Diz respeito às redes que têm alcance metropolitano. Ou seja, uma rede que interconecta recursos computacionais
+em uma área referente a uma metrópole.').
+
+pergunta('wan',
+         'É uma rede que interconecta recursos computacionais distantes geograficamente uns dos outros. Nessas redes são colocados equipamentos que interligam cidades e até continentes.').
+
+pergunta('internet',
+         'É uma gigantesca rede mundial de computadores, os quais interligados por linhas comuns de telefone, linhas privadas de comunicação, cabos submarinos, canais de satélite e inúmeros outros meios de telecomunicação.').
+
+pergunta('correio eletronico',
+         'É um dos primeiros serviços disponíveis para a comunicação em rede. O correio eletrônico permite que usuários enviem e recebam mensagens eletrônicas, usando um endereço eletrônico como referência para a localização dos destinatários da mensagem.').
+
+pergunta('cabo coaxial','Foi o primeiro cabo a ser utilizado em redes de computadores. Atualmente, não é mais empregado na implementação de redes, pois não é muito flexível e muitos problemas já foram detectados na utilização desse tipo de meio.').
+
+pergunta('cabo de par trançado','O cabo de par trançado é o mais usado em redes. Além da flexibilidade, garante uma velocidade na troca das informações compatível com as interfaces de redes. Geralmente, é utilizado em redes locais.').
+
+pergunta('fibra optica','A fibra óptica tem capacidade de transmitir grande volume de informações. Tal característica a torna um meio interessante para ser implementada em locais com essas possibilidades. Geralmente, são utilizadas em equipamentos que formam o backbone. Diferente de outros meios, a fibra não sofre interferência eletromagnética, de modo que uma informação poderá ser transmitida em distâncias maiores sem que seja necessário intervir para reforçar o sinal.').
+
+pergunta('radiofrequencia',
+         'A radiofrequência é o meio não físico utilizado para transmitir informações. A este tipo de meio convencionou-se chamar de wireless e as tecnologias mais conhecidas que desse se utilizam são o telefone celular, wi-fi, wimax, satélite, infravermelho e bluetooth.').
+
+pergunta('topologia de redes',
+         'A forma com que os computadores são interligados.').
+
+pergunta('topologia parcialmente ligada',
+         'Neste tipo de tecnologia, os computadores são interligados de forma intermediária, ou seja, não são todos os computadores que são interligados. Portanto, em caso de problemas com a conexão física, há caminhos alternativos para se chegar até a outra máquina.').
+
+pergunta('topologia em barramento',
+         'Este tipo de topologia consiste em ter um meio de comunicação comum, ou seja,
+todos os computadores são conectados a esse meio para estabelecer comunicação
+entre si.').
+
+pergunta('topologia ponto a ponto',
+         'Este tipo de topologia caracteriza-se por enviar os dados apenas em um sentido
+como, por exemplo, sentido anti-horário. Conforme se pode ver na Figura abaixo,
+a interligação entre os computadores é feita nas interfaces de cada máquina. Dessa
+forma, os dados transmitidos deverão passar pelos computadores até alcançarem
+o seu destino.').
+
+pergunta('topologia multiponto',
+         'Este tipo de topologia é também conhecido como token ring. Caracteriza-se por circular no anel, um conjunto padrão de oito bits, chamado de token. Quando uma das máquinas tiver que transmitir alguma informação, deverá capturar esse token e transmitir os dados. Após a transmissão dos dados, a máquina deverá inserir o token novamente no anel. Tal mecanismo é executado para que não haja colisão dos dados a serem transmitidos, pois só poderá transmitir os dados a máquina que conseguir capturar o token; aquela que não conseguir, deverá esperar.').
+
+pergunta('topologia em estrela',
+         'Topologia em que cada equipamento é interligado a um equipamento central, através do qual todas as mensagens devem passar.').
+
+
+
+
+
+
